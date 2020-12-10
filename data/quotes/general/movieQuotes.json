@@ -1,0 +1,989 @@
+[
+  {
+    "quote":"Life moves pretty fast. If you don’t stop and look around once in a while, you could miss it",
+    "character":"Ferris Bueller",
+    "title":"Ferris Bueller’s Day Off",
+    "actor":"Matthew Broderick",
+    "year":1986
+ },
+ {
+    "quote":"If I'm wrong, nothing happens! We go to jail. Peacefully, quietly, we'll enjoy it. But if I'm right, and we can stop this thing... Lenny... you, will have save the lives of millions of registered voters.",
+    "character":"Peter Venkman",
+    "title":"Ghostbusters",
+    "actor":"Bill Murray",
+    "year":1984
+ },
+ {
+    "quote":"Pinchers of peril! You guys, I've been saved by my pinchers of peril!",
+    "character":"Data",
+    "title":"The Goonies",
+    "actor":"Ke Huy Quan",
+    "year":1985
+ },
+ {
+    "quote":"Have fun storming the castle!",
+    "character":"Miracle Max",
+    "title":"The Princess Bride",
+    "actor":"Billy Crystal",
+    "year":1987
+ },
+ {
+    "quote":"Come out to the coast. We'll get together. Have a few laughs.",
+    "character":"John McClane",
+    "title":"Die Hard",
+    "actor":"Bruce Willis",
+    "year":1988
+ },
+ {
+    "quote":"Ah, well, I attended Juilliard, I'm a graduate of the Harvard Business School, I travel quite extensively, I lived through the Black Plague, and I had a pretty good time during that. I've seen The Exorcist about a hundred and sixty-seven times, and it keeps getting funnier every single time I see it, not to mention the fact that you're talking to a dead guy, now what do you think?! You think I'm qualified?",
+    "character":"Betelgeuse",
+    "title":"Beetlejuice",
+    "actor":"Michael Keaton",
+    "year":1988
+ },
+ {
+    "quote":"Here's the bottom line, Wyatt. I'm telling Mom and Dad everything. I'm even considering making up some shit.",
+    "character":"Chet Donnelly",
+    "title":"Weird Science",
+    "actor":"Bill Paxton",
+    "year":1985
+ },
+ {
+    "quote":"I'll be back",
+    "character":"The Terminator",
+    "title":"Terminator",
+    "actor":"Arnold Schwarzenegger",
+    "year":1984
+ },
+ {
+    "quote":"Aasta la vista, baby",
+    "character":"The Terminator",
+    "title":"Terminator 2: Judgement Day",
+    "actor":"Arnold Schwarzenegger",
+    "year":1991
+ },
+ {
+    "quote":"My CPU is a neural-net processor; a learning computer. But Skynet presets the switch to read-only when we're sent out alone.",
+    "character":"The Terminator",
+    "title":"Terminator 2: Judgement Day",
+    "actor":"Arnold Schwarzenegger",
+    "year":1991
+ },
+ {
+    "quote":"Here's looking at you,kid!",
+    "character":"Rick",
+    "title":"Casablanca",
+    "actor":"Humphrey Bogart",
+    "year":1942
+ },
+ {
+    "quote":"I am Iron Man",
+    "character":"Tony Stark",
+    "title":"Avengers : Endgame",
+    "actor":"Robert Downey Jr.",
+    "year":2019
+ },
+ {
+    "quote":"Great men are not born great, they grow great.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"It's nothing personal, it's just business.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"A man who doesn't spend time with his family can never be a real man.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"A friend should always underestimate your virtues and an enemy overestimate your faults",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"I have learned more in the streets than in any classroom.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"Friendship is everything. Friendsip is more than a talent. It is more than the government. It is almost the equal to family.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"Never let anyone know what you are thinking.",
+    "character":"Michael Corleone",
+    "title":"The Godfather II",
+    "actor":"Al Pacino",
+    "year":1974
+ },
+ {
+    "quote":"I don't like violence, Tim. I'm a bussinessman. Blood is a big expense.",
+    "character":"Sollozzo",
+    "title":"The Godfather II",
+    "actor":"Sollozzo",
+    "year":1974
+ },
+ {
+    "quote":"I respect those that tell me the truth, no matter how hard it is.",
+    "character":"Michael Corleone",
+    "title":"The Godfather II",
+    "actor":"Al Pacino",
+    "year":1974
+ },
+ {
+    "quote":"I asked God for a bike, but I know God doesn't work that way. So I stole a bike and asked him for forgiveness",
+    "character":"Michael Corleone",
+    "title":"The Godfather II",
+    "actor":"Al Pacino",
+    "year":1974
+ },
+ {
+    "quote":"Revenge is a dish best served cold.",
+    "character":"Don Vito Corleone",
+    "title":"The Godfather",
+    "actor":"Marlon Brando",
+    "year":1972
+ },
+ {
+    "quote":"We'll do it together.",
+    "character":"Captain America",
+    "title":"Avengers : Age of Ultron",
+    "actor":"Chris Evans",
+    "year":2015
+ },
+ {
+    "quote":"For once, I am in complete agreement with my friend here. I think we should all get up and leave this place immediately. You know what those things can do? Suck the paint off your house and give your family a permanent orange afro.",
+    "character":"Austin Millbarge",
+    "title":"Spies Like Us",
+    "actor":"Dan Aykroyd",
+    "year":1985
+ },
+ {
+    "quote":"Walk on road. Mmm? Walk right side, safe. Walk left side, safe. Walk middle, sooner or later, get squish just like grape. Here karate same thing. Either you karate do yes, or karate do no. You karate do guess so, squish, just like grape.",
+    "character":"Mr. Miyagi",
+    "title":"The Karate Kid",
+    "actor":"Pat Morita",
+    "year":1984
+ },
+ {
+    "quote":"If my calculations are correct, when this baby hits 88 miles per hour, you're going to see some serious shit.",
+    "character":"Dr. Emmett Brown",
+    "title":"Back to the Future",
+    "actor":"Christopher Lloyd",
+    "year":1985
+ },
+ {
+    "quote":"I do have a test today. That wasn't bullshit. It's on European Socialism. I mean, really, what's the point? I'm not European. I don't plan on being European. So who gives a crap if they're socialists? The could be fascist anarchists. It still wouldn't change the fact that I don't own a car.",
+    "character":"Ferris Bueller",
+    "title":"Ferris Bueller's Day Off",
+    "actor":"Matthew Broderick",
+    "year":1986
+ },
+ {
+    "quote":"We rob banks.",
+    "character":"Clyde",
+    "title":"Bonnie and Clyde",
+    "actor":"Warren Beatty",
+    "year":1967
+ },
+ {
+    "quote": "Frankly  my dear  I don't give a damn",
+    "character": null,
+    "title": "Gone With the Wind",
+    "actor": null,
+    "year":1939
+ },
+ {
+    "quote": "I'm going to make him an offer he can't refuse",
+    "character": null,
+    "title": "The Godfather",
+    "actor": null,
+    "year":1972
+ },
+ {
+    "quote": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody  instead of a bum  which is what I am",
+    "character": null,
+    "title": "On the Waterfront",
+    "actor": null,
+    "year": 1954
+ },
+ {
+    "quote": "Toto  I've got a feeling we're not in Kansas anymore",
+    "character": null,
+    "title": "The Wizard of Oz",
+    "actor": null,
+    "year": 1939
+ },
+ {
+    "quote": "Here's looking at you  kid",
+    "character": null,
+    "title": "Casablanca",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "Go ahead  make my day",
+    "character": null,
+    "title": "Sudden Impact",
+    "actor": null,
+    "year": 1983
+ },
+ {
+    "quote": "All right  Mr. DeMille  I'm ready for my close-up",
+    "character": null,
+    "title": "Sunset Blvd",
+    "actor": null,
+    "year": 1950
+ },
+ {
+    "quote": "May the Force be with you",
+    "character": null,
+    "title": "Star Wars",
+    "actor": null,
+    "year": 1977
+ },
+ {
+    "quote": "Fasten your seatbelts",
+    "character": null,
+    "title": " It's going to be a bumpy night",
+    "actor": null,
+    "year": 1950
+ },
+ {
+    "quote": "You talking to me?Taxi Driver",
+    "character": null,
+    "title": "Cool Hand Luke",
+    "actor": null,
+    "year": 1976
+ },
+ {
+    "quote": "What we've got here is failure to communicate",
+    "character": null,
+    "title": "Apocalypse Now",
+    "actor": null,
+    "year": 1967
+ },
+ {
+    "quote": "I love the smell of napalm in the morning",
+    "character": null,
+    "title": "Love Story",
+    "actor": null,
+    "year": 1979
+ },
+ {
+    "quote": "Love means never having to say you're sorry",
+    "character": null,
+    "title": "The Maltese Falcon",
+    "actor": null,
+    "year": 1970
+ },
+ {
+    "quote": "The stuff that dreams are made of",
+    "character": null,
+    "title": "T",
+    "actor": null,
+    "year": 1941
+ },
+ {
+    "quote": "E",
+    "character": null,
+    "title": "In the Heat of the Night",
+    "actor": null,
+    "year": 1982
+ },
+ {
+    "quote": "They call me Mister Tibbs",
+    "character": null,
+    "title": "Citizen Kane",
+    "actor": null,
+    "year": 1967
+ },
+ {
+    "quote": "Rosebud",
+    "character": null,
+    "title": " Top of the world",
+    "actor": null,
+    "year": 1941
+ },
+ {
+    "quote": "Made it  Ma",
+    "character": null,
+    "title": "Network",
+    "actor": null,
+    "year": 1949
+ },
+ {
+    "quote": "I'm as mad as hell  and I'm not going to take this anymore",
+    "character": null,
+    "title": "Casablanca",
+    "actor": null,
+    "year": 1976
+ },
+ {
+    "quote": "Louis  I think this is the beginning of a beautiful friendship",
+    "character": null,
+    "title": " I ate his liver with some fava beans and a nice Chianti",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "A census taker once tried to test me",
+    "character": null,
+    "title": " James Bond",
+    "actor": null,
+    "year": 1991
+ },
+ {
+    "quote": "Bond",
+    "character": null,
+    "title": "The Wizard of Oz",
+    "actor": null,
+    "year": 1962
+ },
+ {
+    "quote": "There's no place like home",
+    "character": null,
+    "title": "Sunset Blvd",
+    "actor": null,
+    "year": 1939
+ },
+ {
+    "quote": "I am big! It's the pictures that got small",
+    "character": null,
+    "title": "Jerry Maguire",
+    "actor": null,
+    "year": 1950
+ },
+ {
+    "quote": "Show me the money",
+    "character": null,
+    "title": " I'm walking here",
+    "actor": null,
+    "year": 1996
+ },
+ {
+    "quote": "Why don't you come up sometime and see me?She Done Him Wrong",
+    "character": null,
+    "title": " Play 'As Time Goes By",
+    "actor": null,
+    "year": 1933
+ },
+ {
+    "quote": "I'm walking here",
+    "character": null,
+    "title": "A Few Good Men",
+    "actor": null,
+    "year": 1969
+ },
+ {
+    "quote": "Play it  Sam",
+    "character": null,
+    "title": "Grand Hotel",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "You can't handle the truth",
+    "character": null,
+    "title": "Gone With the Wind",
+    "actor": null,
+    "year": 1992
+ },
+ {
+    "quote": "I want to be alone",
+    "character": null,
+    "title": "Casablanca",
+    "actor": null,
+    "year": 1932
+ },
+ {
+    "quote": "After all  tomorrow is another day",
+    "character": null,
+    "title": "When Harry Met Sally",
+    "actor": null,
+    "year": 1939
+ },
+ {
+    "quote": "Round up the usual suspects",
+    "character": null,
+    "title": "To Have and Have Not",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "I'll have what she's having",
+    "character": null,
+    "title": "Jaws",
+    "actor": null,
+    "year": 1989
+ },
+ {
+    "quote": "You know how to whistle  don't you  Steve? You just put your lips together and blow",
+    "character": null,
+    "title": " We don't need no badges",
+    "actor": null,
+    "year": 1944
+ },
+ {
+    "quote": "You're gonna need a bigger boat",
+    "character": null,
+    "title": "The Terminator",
+    "actor": null,
+    "year": 1975
+ },
+ {
+    "quote": "Badges? We ain't got no badges",
+    "character": null,
+    "title": "The Pride of the Yankees",
+    "actor": null,
+    "year": 1948
+ },
+ {
+    "quote": "I'll be back",
+    "character": null,
+    "title": "Field of Dreams",
+    "actor": null,
+    "year": 1984
+ },
+ {
+    "quote": "Today  I consider myself the luckiest man on the face of the earth",
+    "character": null,
+    "title": " You never know what you're gonna get",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "If you build it  he will come",
+    "character": null,
+    "title": "Bonnie and Clyde",
+    "actor": null,
+    "year": 1989
+ },
+ {
+    "quote": "Mama always said life was like a box of chocolates",
+    "character": null,
+    "title": "The Graduate",
+    "actor": null,
+    "year": 1994
+ },
+ {
+    "quote": "We rob banks",
+    "character": null,
+    "title": "Casablanca",
+    "actor": null,
+    "year": 1967
+ },
+ {
+    "quote": "Plastics",
+    "character": null,
+    "title": "The Sixth Sense",
+    "actor": null,
+    "year": 1967
+ },
+ {
+    "quote": "We'll always have Paris",
+    "character": null,
+    "title": " A Streetcar Named Desire",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "I see dead people",
+    "character": null,
+    "title": " Shane",
+    "actor": null,
+    "year": 1999
+ },
+ {
+    "quote": "Stella! Hey  Stella",
+    "character": null,
+    "title": "Some Like It Hot",
+    "actor": null,
+    "year": 1951
+ },
+ {
+    "quote": "Oh  Jerry  don't let's ask for the moon. We have the stars.Now  Voyager",
+    "character": null,
+    "title": " It's alive",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "Shane",
+    "character": null,
+    "title": "Apollo 13",
+    "actor": null,
+    "year": 1953
+ },
+ {
+    "quote": "Well  nobody's perfect",
+    "character": null,
+    "title": "Jerry Maguire",
+    "actor": null,
+    "year": 1959
+ },
+ {
+    "quote": "It's alive",
+    "character": null,
+    "title": "Animal Crackers",
+    "actor": null,
+    "year": 1931
+ },
+ {
+    "quote": "Houston  we have a problem",
+    "character": null,
+    "title": "A League of Their Own",
+    "actor": null,
+    "year": 1995
+ },
+ {
+    "quote": "You've got to ask yourself one question: 'Do I feel lucky?' Well  do ya  punk?Dirty Harry",
+    "character": null,
+    "title": "Annie Hall",
+    "actor": null,
+    "year": 1971
+ },
+ {
+    "quote": "You had me at hello",
+    "character": null,
+    "title": "Psycho",
+    "actor": null,
+    "year": 1996
+ },
+ {
+    "quote": "One morning I shot an elephant in my pajamas. How he got in my pajamas  I don't know",
+    "character": null,
+    "title": "Wall Street",
+    "actor": null,
+    "year": 1930
+ },
+ {
+    "quote": "There's no crying in baseball",
+    "character": null,
+    "title": "The Godfather II",
+    "actor": null,
+    "year": 1992
+ },
+ {
+    "quote": "La-dee-da  la-dee-da",
+    "character": null,
+    "title": "Gone With the Wind",
+    "actor": null,
+    "year": 1977
+ },
+ {
+    "quote": "A boy's best friend is his mother",
+    "character": null,
+    "title": "Sons of the Desert",
+    "actor": null,
+    "year": 1960
+ },
+ {
+    "quote": "Greed  for lack of a better word  is good",
+    "character": null,
+    "title": "Scarface",
+    "actor": null,
+    "year": 1987
+ },
+ {
+    "quote": "Keep your friends close  but your enemies closer",
+    "character": null,
+    "title": "Beyond the Forest",
+    "actor": null,
+    "year": 1974
+ },
+ {
+    "quote": "As God is my witness  I'll never be hungry again",
+    "character": null,
+    "title": " Aren't you?The Graduate",
+    "actor": null,
+    "year": 1939
+ },
+ {
+    "quote": "Well  here's another nice mess you've gotten me into",
+    "character": null,
+    "title": " Strangelove",
+    "actor": null,
+    "year": 1933
+ },
+ {
+    "quote": "Say hello to my little friend",
+    "character": null,
+    "title": "The Adventures of Sherlock Holmes",
+    "actor": null,
+    "year": 1983
+ },
+ {
+    "quote": "What a dump",
+    "character": null,
+    "title": "Planet of the Apes",
+    "actor": null,
+    "year": 1949
+ },
+ {
+    "quote": "Mrs. Robinson  you're trying to seduce me",
+    "character": null,
+    "title": "Casablanca",
+    "actor": null,
+    "year": 1967
+ },
+ {
+    "quote": "Gentlemen  you can't fight in here! This is the War Room!\"Dr",
+    "character": null,
+    "title": "The Shining",
+    "actor": null,
+    "year": 1964
+ },
+ {
+    "quote": "Elementary  my dear Watson",
+    "character": null,
+    "title": "Poltergeist",
+    "actor": null,
+    "year": 1929
+ },
+ {
+    "quote": "Get your stinking paws off me  you damned dirty ape",
+    "character": null,
+    "title": " You ain't heard nothin' yet!The Jazz Singer",
+    "actor": null,
+    "year": 1968
+ },
+ {
+    "quote": "Of all the gin joints in all the towns in all the world  she walks into mine",
+    "character": null,
+    "title": "Mommie Dearest",
+    "actor": null,
+    "year": 1942
+ },
+ {
+    "quote": "Here's Johnny",
+    "character": null,
+    "title": "Chinatown",
+    "actor": null,
+    "year": 1980
+ },
+ {
+    "quote": "They're here",
+    "character": null,
+    "title": "A Streetcar Named Desire",
+    "actor": null,
+    "year": 1982
+ },
+ {
+    "quote": "Is it safe?Marathon Man",
+    "character": null,
+    "title": "Terminator 2: Judgment Day",
+    "actor": null,
+    "year": 1976
+ },
+ {
+    "quote": "Wait a minute  wait a minute",
+    "character": null,
+    "title": "Soylent Green",
+    "actor": null,
+    "year": 1927
+ },
+ {
+    "quote": "No wire hangers  ever",
+    "character": null,
+    "title": "2001: A Space Odyssey",
+    "actor": null,
+    "year": 1981
+ },
+ {
+    "quote": "Mother of mercy  is this the end of Rico?Little Caesar",
+    "character": null,
+    "title": " ",
+    "actor": null,
+    "year": 1930
+ },
+ {
+    "quote": "Forget it  Jake  it's Chinatown",
+    "character": null,
+    "title": "Rocky",
+    "actor": null,
+    "year": 1974
+ },
+ {
+    "quote": "I have always depended on the kindness of strangers",
+    "character": null,
+    "title": "Funny Girl",
+    "actor": null,
+    "year": 1951
+ },
+ {
+    "quote": "Hasta la vista  baby",
+    "character": null,
+    "title": " Toga",
+    "actor": null,
+    "year": 1991
+ },
+ {
+    "quote": "Soylent Green is people",
+    "character": null,
+    "title": " Children of the night",
+    "actor": null,
+    "year": 1973
+ },
+ {
+    "quote": "Open the pod bay doors  HAL",
+    "character": null,
+    "title": " It was Beauty killed the Beast",
+    "actor": null,
+    "year": 1968
+ },
+ {
+    "quote": " ",
+    "character": null,
+    "title": "The Lord of the Rings: Two Towers",
+    "actor": null,
+    "year": 2002
+ },
+ {
+    "quote": "Yo  Adrian",
+    "character": null,
+    "title": " Attica",
+    "actor": null,
+    "year": 1976
+ },
+ {
+    "quote": "Hello  gorgeous",
+    "character": null,
+    "title": "42nd Street",
+    "actor": null,
+    "year": 1968
+ },
+ {
+    "quote": "Toga",
+    "character": null,
+    "title": "On Golden Pond",
+    "actor": null,
+    "year": 1978
+ },
+ {
+    "quote": "Listen to them",
+    "character": null,
+    "title": "Knute Rockne All American",
+    "actor": null,
+    "year": 1931
+ },
+ {
+    "quote": "Oh  no  it wasn't the airplanes",
+    "character": null,
+    "title": "Goldfinger",
+    "actor": null,
+    "year": 1933
+ },
+ {
+    "quote": "My precious",
+    "character": null,
+    "title": "The Naughty Nineties",
+    "actor": null,
+    "year": 2002
+ },
+ {
+    "quote": "Attica",
+    "character": null,
+    "title": " It looks like a mirac",
+    "actor": null,
+    "year": 1975
+ },
+ {
+    "quote": "Sawyer  you're going out a youngster  but you've got to come back a star",
+    "character": null,
+    "title": "Auntie Mame",
+    "actor": null,
+    "year": 1933
+ },
+ {
+    "quote": "Listen to me  mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse  and I'm going to be right behind you  holding on tight  and away we're gonna go  go  go",
+    "character": null,
+    "title": "Top Gun",
+    "actor": null,
+    "year": 1981
+ },
+ {
+    "quote": "Tell 'em to go out there with all they got and win just one for the Gipper",
+    "character": null,
+    "title": " Make your lives extraordinary",
+    "actor": null,
+    "year": 1940
+ },
+ {
+    "quote": "A martini. Shaken  not stirred",
+    "character": null,
+    "title": "Moonstruck",
+    "actor": null,
+    "year": 1964
+ },
+ {
+    "quote": "Who's on first",
+    "character": null,
+    "title": " My father thanks you",
+    "actor": null,
+    "year": 1945
+ },
+ {
+    "quote": "Cinderella story. Outta nowhere. A former greenskeeper  now  about to become the Masters champion",
+    "character": null,
+    "title": "Dirty Dancing",
+    "actor": null,
+    "year": 1980
+ },
+ {
+    "quote": "Life is a banquet  and most poor suckers are starving to death",
+    "character": null,
+    "title": "The Wizard of Oz",
+    "actor": null,
+    "year": 1958
+ },
+ {
+    "quote": "I feel the need - the need for speed",
+    "character": null,
+    "title": "Titanic",
+    "actor": null,
+    "year": 1986
+ },
+ {
+   "quote": "Every person can be a force for good, free to forgehin own destiny.",
+   "character": null,
+   "title": "Man of Steel",
+   "actor": null,
+   "year": 2013
+ },
+ {
+    "quote": "What is the face of a coward? the back of his head when he runs from the battle.",
+    "character": "Francis Underwood",
+    "title": "House of Cards",
+    "actor": "Kevin Spacey",
+    "year": 2013
+ },
+{
+  "quote": "This is your last chance. After this, there is no turning back. You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.",
+  "character": "Morpheus",
+  "title": "The Matrix",
+  "actor": "Laurence Fishburne",
+  "year": 1999
+},
+{
+  "quote": "Throughout human history, we have been dependent on machines to survive. Fate, it seems, is not without a sense of irony",
+  "character": "Morpheus",
+  "title": "The Matrix",
+  "actor": "Laurence Fishburne",
+  "year": 1999
+},
+{
+  "quote": "If real is what you can feel, smell, taste and see, then 'real' is simply electrical signals interpreted by your brain.",
+  "character": "Morpheus",
+  "title": "The Matrix",
+  "actor": "Laurence Fishburne",
+  "year": 1999
+},
+{
+  "quote": "Have you ever had a dream, Neo, that you seemed so sure it was real? But if were unable to wake up from that dream, how would you tell the difference between the dream world & the real world?",
+  "character": "Morpheus",
+  "title": "The Matrix",
+  "actor": "Laurence Fishburne",
+  "year": 1999
+},
+{
+  "quote": "Come on! Stop trying to hit me and hit me!",
+  "character": "Morpheus",
+  "title": "The Matrix",
+  "actor": "Laurence Fishburne",
+  "year": 1999
+},
+{
+  "quote": "i hope they remember you",
+  "character": "thanos",
+  "title": "Infinity wars",
+  "actor": "josh brolin",
+  "year": 2018
+ },
+ {
+  "quote": "I love you 3000",
+  "character": "Iron Man",
+  "title": "Avengers",
+  "actor": "Robert Downey Jr.",
+  "year": 2019
+ },
+ {
+  "quote": "My mom always said life was like a box of chocolates. You never know what you're gonna get.",
+  "character": "Forrest Gump",
+  "title": "Forrest Gump",
+  "actor": "Tom Hanks",
+  "year": 1994
+ },
+ {
+  "quote": " I will look for you, I will find you... and I will kill you.",
+  "character": "Bryan Mills",
+  "title": "Taken",
+  "actor": "Liam Neeson",
+  "year": 2009
+ },
+ {
+  "quote": "People hurt the ones they love. That's how it is all around the world",
+  "character": "John Coffey",
+  "title": "The Green Mile",
+  "actor": "Michael Clarke Duncan",
+  "year": 1999
+ },
+ {
+    "quote": "Sometimes I wonder, will God ever forgive us for what we've done to each other? Then I look around and I realize... God left this place a long time ago.",
+    "character": "Danny Archer",
+    "title": "Blood Diamond",
+    "actor": "Leonardo Di Caprio",
+    "year": 2006
+ },
+ {
+    "quote": "I Know you think she was the one, but I don't.I think you're just remembering the good stuff.",
+    "character": "Rachel Hansen",
+    "title": "500 Days Of Summer",
+    "actor": "Chloë Grace Moretz",
+    "year": 2009
+ },
+ {
+  "quote": "Mankind was born on earth, It was never meant to die here.",
+  "character": "Joseph A. Cooper",
+  "title": "Interstellar",
+  "actor": "Matthew McConaughey",
+  "year": 2014
+},
+{
+  "quote": "WHOEVER COMES, WHOEVER IT IS...I’LL KILL THEM. I’LL KILL THEM ALL.",
+  "character": "John Wick",
+  "title": "John Wick",
+  "actor": "Keanu Reeves",
+  "year": 2019
+},
+{
+  "quote": "Nobody knows this mall like I do.",
+  "character": "Paul Blart",
+  "title": "Paul Blart: Mall Cop",
+  "actor": "Kevin James",
+  "year": 2009
+},
+{
+  "quote": "Ain't no rules says a dog can't play basketball.",
+  "character": "Referee #1",
+  "title": "Air Bud",
+  "actor": "Jay Brazeau",
+  "year": 1997
+}
+]
