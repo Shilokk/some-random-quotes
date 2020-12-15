@@ -1,6 +1,45 @@
-<div align="center">
-    <h1>Some Random Quotes</h1>
-</div>
+<h1 align="center">Welcome to Some Random Quotes 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/Shilokk/SomeRandomQuotes/#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+> An api for quotes
+
+### 🏠 [Homepage](https://github.com/Shilokk/SomeRandomQuotes/#readme)
+
+### ✨ [Demo](https://somerandomquotes.gq)
+
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm run start
+```
+
+## Author
+
+👤 **Shilo k.**
+
+* Website: ShiloKk.tk
+* Github: [@ShiloKk](https://github.com/ShiloKk)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 
 ## Examples:
 ### example with node fetch
