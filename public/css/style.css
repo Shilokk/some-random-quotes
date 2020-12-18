@@ -1,14 +1,13 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap";
-
 * {
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
+	font-family: poppins, sans-serif
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth
 }
 
 body {
@@ -16,7 +15,9 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
+  color: #fff;
 }
+
 
 .api-list {
 	width: 100%;
@@ -36,7 +37,7 @@ body {
 	transform: scale(1);
 	opacity: 1;
 	-webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-	transition: opacity .8s ease, transform 1.4s ease;
+	transition: opacity .8s ease, transform 1.4s ease
 }
 
 .particles-js {
@@ -56,7 +57,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-position: cover;
+	background-position: cover
 }
 
 .the-header {
@@ -64,42 +65,49 @@ body {
 	text-align: center;
 	letter-spacing: 10px;
 	font-weight: bolder;
-	color: #fff;
+	color: #fff
 }
 
 .card {
 	color: #000;
 	overflow: hidden;
-	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
 	transition: .4s;
 	letter-spacing: 1px;
 	background: linear-gradient(-45deg, #232526, #414345);
-	color: #fff;
+	color: #fff
 }
 
 .card-title {
 	color: #fff;
 	overflow: hidden;
 	transition: .4s;
-	letter-spacing: 1px;
+	letter-spacing: 1px
+}
+
+.card .card-text {
+  color: #fff;
+  overflow: hidden;
+  transition: .4s;
+  letter-spacing: 1px;
 }
 
 .card:hover {
-	transform: scale(1.1);
+	transform: scale(1.1)
 }
 
 .card:before {
 	bottom: 0;
 	left: 0;
-	background: rgba(255, 255, 255, .1);
-	z-index: 1;
+	background: rgba(8, 1, 1, 0.1);
+	z-index: 1
 }
 
 .title {
 	color: #fff;
-	font-family: monospace;
+	font-family: monospace
 }
 
 .buttons {
-	color: #fff;
+	color: #fff
 }
