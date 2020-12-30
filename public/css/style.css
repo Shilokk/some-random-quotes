@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap";
+
 * {
 	padding: 0;
 	box-sizing: border-box;
@@ -15,9 +16,19 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
-  color: #fff;
+	color: #fff;
 }
 
+.particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #181818;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 .api-list {
 	width: 100%;
@@ -40,32 +51,12 @@ body {
 	transition: opacity .8s ease, transform 1.4s ease
 }
 
-.particles-js {
-	display: block;
-	vertical-align: bottom;
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-	-webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-	transition: opacity .8s ease, transform 1.4s ease;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: cover
-}
-
 .the-header {
 	font-family: "monospace";
 	text-align: center;
 	letter-spacing: 10px;
 	font-weight: bolder;
-	color: #fff
+	color: #fff;
 }
 
 .card {
@@ -75,25 +66,25 @@ body {
 	transition: .4s;
 	letter-spacing: 1px;
 	background: linear-gradient(-45deg, #232526, #414345);
-	color: #fff
+	color: #fff;
 }
 
 .card-title {
 	color: #fff;
 	overflow: hidden;
 	transition: .4s;
-	letter-spacing: 1px
+	letter-spacing: 1px;
 }
 
 .card .card-text {
-  color: #fff;
-  overflow: hidden;
-  transition: .4s;
-  letter-spacing: 1px;
+	color: #fff;
+	overflow: hidden;
+	transition: .4s;
+	letter-spacing: 1px;
 }
 
 .card:hover {
-	transform: scale(1.1)
+	transform: scale(1.1);
 }
 
 .card:before {
@@ -105,9 +96,23 @@ body {
 
 .title {
 	color: #fff;
-	font-family: monospace
+	font-family: monospace;
+  text-align: center;
 }
 
-.buttons {
-	color: #fff
+.quote {
+	color: #fff;
+	font-family: monospace;
+	margin: .25em;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.author {
+	color: #fff;
+	font-family: monospace;
+	margin: .25em;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bold;
 }
