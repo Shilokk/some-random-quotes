@@ -11,11 +11,7 @@
 
 > An api for quotes
 
-### 🏠 [Homepage](https://github.com/Shilokk/SomeRandomQuotes/#readme)
-
-### ✨ [Demo](https://somerandomquotes.gq)
-
-
+### 🏠 [Homepage](https://somerandomquotes.gq)
 
 ## Author
 
@@ -58,4 +54,4 @@ module.exports = {
 }
 ```
 
-#### If you need help message me on discord at 🎄Festive Shilo K.🎄#0366
+#### If you need help message me on discord at Shilo K.#0366
