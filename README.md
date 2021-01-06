@@ -44,7 +44,7 @@ module.exports = {
     name: "quote",
     description: "Sends a random quote!",
     category: "fun",
-    usage: "m!quote",
+    usage: "quote",
     aliases: null,
     run: async (client, message, args) => {
         const { body } = await superagent
