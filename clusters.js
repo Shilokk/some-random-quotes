@@ -41,7 +41,7 @@ const apiLimiter = RateLimit({
 });
 app.use("/api/", apiLimiter);
 
-let port = 3000 || process.ENV.port;
+let port = 8080 || process.ENV.port;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
