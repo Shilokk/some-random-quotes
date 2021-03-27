@@ -1,280 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>SomeRandomQuotes</title>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link href="/css/style.css" rel="stylesheet" />
-      <!-- Use this line to have the theme on your website -->
-      <link href="https://modesta.alexflipnote.dev/css/modesta.css" type="text/css" rel="stylesheet" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-      <meta name="viewport" content="width=device-width ,initial-scale=1">
-      <title>Some Random Quotes</title>
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="https://somerandomquotes.gq">
-      <meta property="og:title" content="Some Random Quotes">
-      <meta property="og:description" content="A quote api.">
-      <meta property="og:image" content="/public/images/ms-icon-310x310.png">
-      <meta name="theme-color" content="#181818">
-   </head>
-   <body id="#">
-      <div id="particles-js"></div>
-      <div class="center-object">
-         <div class="container">
-            <div class="me">
-               <div class="quote-header">
-                  <h1 class="title">Api endpoints</h1>
-                  <h2 class="quote"><%= quote.quote %></h2>
-                  <h2 class="author">- <%= quote.author %></h2>
-               </div>
-               <div class="buttons">
-                  <a href="#api-list" class="btn wet-asphalt-dropshadow animation" target="_blank">Here are the api
-                  endpoints!</a>
-                  <a href="https://github.com/Shilokk/SomeRandomQuotes#readme" class="btn wet-asphalt-dropshadow animation"
-                     target="_blank">Here is the documentation!</a>
-               </div>
-            </div>
-         </div>
+
+<head>
+  <title>SomeRandomQuotes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <!-- Use this line to have the theme on your website -->
+  <link href="https://modesta.alexflipnote.dev/css/modesta.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width ,initial-scale=1">
+  <title>Some Random Quotes</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.shibot.ml">
+  <meta property="og:title" content="Some Random Quotes">
+  <meta property="og:description" content="A quote api.">
+  <meta property="og:image" content="/public/images/ms-icon-310x310.png">
+  <meta name="theme-color" content="#181818">
+</head>
+
+<body id="#">
+  <div id="particles-js"></div>
+  <div class="center-object">
+    <div class="container">
+      <div class="me">
+        <div class="quote-header">
+          <h1 class="title">Api endpoints</h1>
+          <h2 class="quote"><%= quote.quote %></h2>
+          <h2 class="author">- <%= quote.author %></h2>
+        </div>
+        <div class="buttons">
+          <a href="#api-list" class="btn wet-asphalt-dropshadow animation" target="_blank">Here are the api
+            endpoints!</a>
+          <a href="https://github.com/Shilokk/SomeRandomQuotes#readme" class="btn wet-asphalt-dropshadow animation"
+            target="_blank">Here is the documentation!</a>
+        </div>
       </div>
-      <a href="#api-list">
-         <span class="info-button" onclick="scroll_to('Apis')">
-            <div id="fade" class="arrow bounce">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
-                  <path
-                     d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z">
-                  </path>
-               </svg>
+    </div>
+  </div>
+  <a href="#api-list">
+    <span class="info-button" onclick="scroll_to('Apis')">
+      <div id="fade" class="arrow bounce">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
+          <path
+            d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z">
+          </path>
+        </svg>
+      </div>
+  </a>
+  </span>
+  <section class="api-list" id="api-list">
+    <div class="container-fluid mt-4">
+      <div class="the-header">
+        <h1 class="title monospace">Get a quote from a specific author</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/gandhi.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Gandhi</h5>
+              <p class="card-text">Mohandas Karamchand Gandhi also known as Mahatma Gandhi, was an Indian lawyer,
+                anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the
+                successful campaign for India's independence from British rule and in turn inspired movements for civil
+                rights and freedom across the world.
+              </p>
+              <a href="/api/quotes/gandhi" class="btn btn-primary">Link to route</a>
             </div>
-      </a>
-      </span>
-      <section class="api-list" id="api-list">
-         <div class="container-fluid mt-4">
-         <div class="the-header">
-            <h1 class="title monospace">Get a quote from a specific author</h1>
-         </div>
-         <div class="row justify-content-center">
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/gandhi.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Gandhi</h5>
-                     <p class="card-text">Mohandas Karamchand Gandhi also known as Mahatma Gandhi, was an Indian lawyer,
-                        anti-colonial nationalist, and political ethicist, who employed nonviolent resistance to lead the
-                        successful campaign for India's independence from British rule and in turn inspired movements for civil
-                        rights and freedom across the world.
-                     </p>
-                     <a href="/api/quotes/gandhi" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/SunZtu.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Sun Ztu</h5>
+              <p class="card-text">Sun Tzu was a Chinese general, military strategist, writer and philosopher who lived
+                in the Eastern Zhou period of ancient China.
+              </p>
+              <a href="/api/quotes/sunztu" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/SunZtu.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Sun Ztu</h5>
-                     <p class="card-text">Sun Tzu was a Chinese general, military strategist, writer and philosopher who lived
-                        in the Eastern Zhou period of ancient China.
-                     </p>
-                     <a href="/api/quotes/sunztu" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/aristotle.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Aristotle</h5>
+              <p class="card-text">Aristotle was a Greek philosopher and polymath during the Classical period in Ancient
+                Greece. Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the
+                Aristotelian tradition.
+              </p>
+              <a href="/api/quotes/aristotle" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/aristotle.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Aristotle</h5>
-                     <p class="card-text">Aristotle was a Greek philosopher and polymath during the Classical period in Ancient
-                        Greece. Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the
-                        Aristotelian tradition.
-                     </p>
-                     <a href="/api/quotes/aristotle" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/einstein.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Einstein</h5>
+              <p class="card-text">Albert Einstein was a German-born theoretical physicist who developed the theory of
+                relativity, one of the two pillars of modern physics (alongside quantum mechanics)
+              </p>
+              <a href="/api/quotes/einstein" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/einstein.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Einstein</h5>
-                     <p class="card-text">Albert Einstein was a German-born theoretical physicist who developed the theory of
-                        relativity, one of the two pillars of modern physics (alongside quantum mechanics)
-                     </p>
-                     <a href="/api/quotes/einstein" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/plato.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Plato</h5>
+              <p class="card-text">Plato was an Athenian philosopher during the Classical period in Ancient Greece,
+                founder of the Platonist school of thought, and the Academy, the first institution of higher learning in
+                the Western world.
+              </p>
+              <a href="/api/quotes/plato" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/plato.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Plato</h5>
-                     <p class="card-text">Plato was an Athenian philosopher during the Classical period in Ancient Greece,
-                        founder of the Platonist school of thought, and the Academy, the first institution of higher learning in
-                        the Western world.
-                     </p>
-                     <a href="/api/quotes/plato" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/alexander-the-great.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Alexander the Great</h5>
+              <p class="card-text">Alexander III of Macedon, commonly known as Alexander the Great, was a king of the
+                ancient Greek kingdom of Macedon and a member of the Argead dynasty. He was born in Pella in 356 BC and
+                succeeded his father Philip II to the throne at the age of 20. Wikipedia</p>
+              <a href="/api/quotes/alexander-the-great" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/alexander-the-great.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Alexander the Great</h5>
-                     <p class="card-text">Alexander III of Macedon, commonly known as Alexander the Great, was a king of the
-                        ancient Greek kingdom of Macedon and a member of the Argead dynasty. He was born in Pella in 356 BC and
-                        succeeded his father Philip II to the throne at the age of 20. 
-                     </p>
-                     <a href="/api/quotes/alexander-the-great" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/adam-smith.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Adam Smith</h5>
+              <p class="card-text">Adam Smith FRSA was a Scottish economist, philosopher as well as a moral philosopher,
+                a pioneer of political economy, and a key figure during the Scottish Enlightenment, also known as ''The
+                Father of Economics'' or ''The Father of Capitalism''. </p>
+              <a href="/api/quotes/adam-smith" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/adam-smith.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Adam Smith</h5>
-                     <p class="card-text">Adam Smith FRSA was a Scottish economist, philosopher as well as a moral philosopher,
-                        a pioneer of political economy, and a key figure during the Scottish Enlightenment, also known as ''The
-                        Father of Economics'' or ''The Father of Capitalism''. 
-                     </p>
-                     <a href="/api/quotes/adam-smith" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/laozi.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Laozi</h5>
+              <p class="card-text">Lao Tzu, also rendered as Laozi and Lao-Tze, was an ancient Chinese philosopher and
+                writer. He is the reputed author of the Tao Te Ching, the founder of philosophical Taoism, and a deity
+                in religious Taoism and traditional Chinese religions.
+              </p>
+              <a href="/api/quotes/laozi" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/laozi.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Laozi</h5>
-                     <p class="card-text">Lao Tzu, also rendered as Laozi and Lao-Tze, was an ancient Chinese philosopher and
-                        writer. He is the reputed author of the Tao Te Ching, the founder of philosophical Taoism, and a deity
-                        in religious Taoism and traditional Chinese religions.
-                     </p>
-                     <a href="/api/quotes/laozi" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/confucius.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Confucius</h5>
+              <p class="card-text">Confucius was a Chinese philosopher and politician of the Spring and Autumn period
+                who was traditionally considered the paragon of Chinese sages.
+              </p>
+              <a href="/api/quotes/confucius" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/confucius.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Confucius</h5>
-                     <p class="card-text">Confucius was a Chinese philosopher and politician of the Spring and Autumn period
-                        who was traditionally considered the paragon of Chinese sages.
-                     </p>
-                     <a href="/api/quotes/confucius" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+      </div>
+      <div class="the-header">
+        <h1 class="title monospace">Get a quote from a specific author</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/movies and tv.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from a random movie</h5>
+              <p class="card-text">Get a random quote from a random movie</p>
+              <a href="/api/quotes/movie-quotes" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/steve-jobs.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Steve Jobs</h5>
-                     <p class="card-text">Steven Paul Jobs was an American business magnate, industrial designer, investor, and media proprietor.
-                     </p>
-                     <a href="/api/quotes/steve-jobs" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/the-office.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from The Office</h5>
+              <p class="card-text">The Office is an American mockumentary sitcom television series that depicts the
+                everyday work lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder
+                Mifflin Paper Company. It aired on NBC from March 24, 2005, to May 16, 2013, lasting a total of nine
+                seasons.
+              </p>
+              <a href="/api/quotes/the-office" class="btn btn-primary">Link to route</a>
             </div>
-         </div>
-         <div class="the-header">
-            <h1 class="title monospace">Get a quote from a specific author</h1>
-         </div>
-         <div class="row justify-content-center">
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/movies and tv.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from a random movie</h5>
-                     <p class="card-text">Get a random quote from a random movie</p>
-                     <a href="/api/quotes/movie-quotes" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/big-bang-theory.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from The Big Bang Theory</h5>
+              <p class="card-text">The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill
+                Prady, both of whom served as executive producers on the series, along with Steven Molaro. All three
+                also served as head writers.
+              </p>
+              <a href="/api/quotes/big-bang-theory" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/the-office.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from The Office</h5>
-                     <p class="card-text">The Office is an American mockumentary sitcom television series that depicts the
-                        everyday work lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder
-                        Mifflin Paper Company. It aired on NBC from March 24, 2005, to May 16, 2013, lasting a total of nine
-                        seasons.
-                     </p>
-                     <a href="/api/quotes/the-office" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/game-of-thrones.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Game of Thrones</h5>
+              <p class="card-text">Game of Thrones is an American fantasy drama television series created by David
+                Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy
+                novels by George R. R. Martin, the first of which is A Game of Thrones.
+              </p>
+              <a href="/api/quotes/game-of-thrones" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/big-bang-theory.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from The Big Bang Theory</h5>
-                     <p class="card-text">The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill
-                        Prady, both of whom served as executive producers on the series, along with Steven Molaro. All three
-                        also served as head writers.
-                     </p>
-                     <a href="/api/quotes/big-bang-theory" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <img class="card-img-top" src="/images/starwars.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Quote from Star Wars</h5>
+              <p class="card-text">The original film, retroactively subtitled Episode IV: A New Hope, was followed by
+                the sequels Episode V: The Empire Strikes Back (1980) and Episode VI: Return of the Jedi (1983), forming
+                the original Star Wars trilogy.
+              </p>
+              <a href="/api/quotes/star-wars" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/game-of-thrones.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Game of Thrones</h5>
-                     <p class="card-text">Game of Thrones is an American fantasy drama television series created by David
-                        Benioff and D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire, a series of fantasy
-                        novels by George R. R. Martin, the first of which is A Game of Thrones.
-                     </p>
-                     <a href="/api/quotes/game-of-thrones" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
+          </div>
+        </div>
+      </div>
+      <div class="the-header">
+        <h1 class="title monospace">Extras:</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto mb-3">
+          <div class="card text-center" style="width: 22rem;">
+            <div class="card-body">
+              <h5 class="card-title">Get a random quote with the author of said quote</h5>
+              <a href="/api/quotes/random" class="btn btn-primary">Link to route</a>
             </div>
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <img class="card-img-top" src="/images/starwars.png" alt="Card image cap">
-                  <div class="card-body">
-                     <h5 class="card-title">Quote from Star Wars</h5>
-                     <p class="card-text">The original film, retroactively subtitled Episode IV: A New Hope, was followed by
-                        the sequels Episode V: The Empire Strikes Back (1980) and Episode VI: Return of the Jedi (1983), forming
-                        the original Star Wars trilogy.
-                     </p>
-                     <a href="/api/quotes/star-wars" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="the-header">
-            <h1 class="title monospace">Extras:</h1>
-         </div>
-         <div class="row justify-content-center">
-            <div class="col-auto mb-3">
-               <div class="card text-center" style="width: 22rem;">
-                  <div class="card-body">
-                     <h5 class="card-title">Get a random quote with the author of said quote</h5>
-                     <a href="/api/quotes/random" class="btn btn-primary">Link to route</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-      <script src="https://modesta.alexflipnote.dev/js/modesta.js" type="text/javascript" charset="utf-8"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
-      <script type="text/javascript" src="/js/particles.js"></script>
-      <script type="text/javascript" src="/js/particles2.js"></script>
-      <script type="text/javascript" src="/js/particles3.js"></script>
-      <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
-      <script src="/js/app.js"></script>
-   </body>
+          </div>
+        </div>
+      </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="https://modesta.alexflipnote.dev/js/modesta.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+  <script type="text/javascript" src="/js/particles.js"></script>
+  <script type="text/javascript" src="/js/particles2.js"></script>
+  <script type="text/javascript" src="/js/particles3.js"></script>
+  <script type="text/javascript" src="/js/smoothscroll.min.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+
 </html>

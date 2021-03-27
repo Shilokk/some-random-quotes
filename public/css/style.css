@@ -56,7 +56,7 @@ body {
 	text-align: center;
 	letter-spacing: 10px;
 	font-weight: bolder;
-	color: #fff;
+	color: #fff
 }
 
 .card {
@@ -66,14 +66,14 @@ body {
 	transition: .4s;
 	letter-spacing: 1px;
 	background: linear-gradient(-45deg, #232526, #414345);
-	color: #fff;
+	color: #fff
 }
 
 .card-title {
 	color: #fff;
 	overflow: hidden;
 	transition: .4s;
-	letter-spacing: 1px;
+	letter-spacing: 1px
 }
 
 .card .card-text {
@@ -84,7 +84,7 @@ body {
 }
 
 .card:hover {
-	transform: scale(1.1);
+	transform: scale(1.1)
 }
 
 .card:before {
@@ -96,8 +96,7 @@ body {
 
 .title {
 	color: #fff;
-	font-family: monospace;
-  text-align: center;
+	font-family: monospace
 }
 
 .quote {
@@ -115,4 +114,8 @@ body {
 	letter-spacing: 1px;
 	text-align: center;
 	font-weight: bold;
+}
+
+.title {
+	text-align: center;
 }
